@@ -50,7 +50,8 @@ public class Main {
 
     static String bigString(int n) {
         char[] a = new char[n];
-        for (int i = 0; i < n; i++) a[i] = (char) ('a' + (i % 26));
+        for (int i = 0; i < n; i++)
+            a[i] = (char) ('a' + (i % 26));
         return new String(a);
     }
 

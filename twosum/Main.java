@@ -7,7 +7,7 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) {
 //        int[] result = twoSumBruteForce(new int[]{2, 5, 5, 11}, 10);
-//        System.out.println("The result is: " + Arrays.toString(result));
+//        System.out.println("The result is: " + ArraysPlayground.toString(result));
 
         int[] resultSecondMethod = twoSumTwoPassHashTable(new int[]{2, 7, 11, 15}, 9);
         System.out.println("The result is: " + Arrays.toString(resultSecondMethod));
