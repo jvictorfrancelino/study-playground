@@ -14,10 +14,15 @@ public class DataStructures {
 
         //ArrayList
         ArrayList<String> arrayList = new ArrayList<>();
-        arrayList.add("A");          // adicionar
+        arrayList.get(0);
+        // get O(1)
+        arrayList.add("A");
         arrayList.add("B");
-        arrayList.remove("B");       // remover por valor
-        System.out.println(arrayList.contains("A")); // busca
+        // adicionar ou remover no final O(1)
+        // adicionar ou remover no meio O(n)
+        arrayList.remove("B");
+        System.out.println(arrayList.contains("A"));
+        // contains O(n)
 
         //LinkedList
         LinkedList<String> linkedList = new LinkedList<>();
